@@ -1,10 +1,14 @@
+:root {
+    --flex-container-bordercolor: whitesmoke;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 1rem;
 }
 
 .flex-container {
-    border: 3px dashed darkcyan;
+    border: 3px dashed var(--flex-container-bordercolor);
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
