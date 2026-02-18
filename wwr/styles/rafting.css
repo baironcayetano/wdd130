@@ -390,3 +390,71 @@ button[type="submit"]:hover {
     background-color: whitesmoke;
     border: 1px solid rgb(59, 59, 59);
 }
+
+.plan-description-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-description-section h2,
+.plan-description-section p {
+    grid-column: span 2;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.plan-image,
+.plan-description {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-image img {
+    width: 100%;
+}
+
+.plan-description {
+    font-size: 20px;
+}
+
+.plan-description p {
+    margin: 5px;
+}
+
+.color {
+    color: maroon;
+    font-weight: bold;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+thead {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+tbody {
+    gap: 5px;
+}
