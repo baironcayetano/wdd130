@@ -349,8 +349,9 @@ button[type="submit"]:hover {
     align-items: center;
 }
 
-.employees-section p {
-    font-size: 20px;
+.employees-section h2 {
+    padding: 5px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
